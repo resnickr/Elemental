@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C2883822306D9200A4DCD3 /* genius.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2883722306D9200A4DCD3 /* genius.png */; };
+		01C2883A22306DDA00A4DCD3 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2883922306DDA00A4DCD3 /* people.png */; };
+		01C2883C22306E2700A4DCD3 /* map_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2883B22306E2700A4DCD3 /* map_marker.png */; };
+		01C2883E223071C100A4DCD3 /* globe_earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 01C2883D223071C100A4DCD3 /* globe_earth.png */; };
+		5DCD15F0222DD87A00B5D383 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15EF222DD87900B5D383 /* AboutVC.swift */; };
+		5DCD15F5222DDB7300B5D383 /* WorkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15F1222DDB7200B5D383 /* WorkParser.swift */; };
+		5DCD15F6222DDB7300B5D383 /* ArtistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15F2222DDB7200B5D383 /* ArtistParser.swift */; };
+		5DCD15F7222DDB7300B5D383 /* LocationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15F3222DDB7200B5D383 /* LocationParser.swift */; };
+		5DCD15F8222DDB7300B5D383 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15F4222DDB7200B5D383 /* PersistenceManager.swift */; };
+		5DCD15FA222DDF6400B5D383 /* ArtistFullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD15F9222DDF6400B5D383 /* ArtistFullScreenVC.swift */; };
+		6E11A6F8220FE1DE00A89764 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F2220FE1DE00A89764 /* Location+CoreDataClass.swift */; };
+		6E11A6F9220FE1DE00A89764 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F3220FE1DE00A89764 /* Location+CoreDataProperties.swift */; };
+		6E11A6FA220FE1DE00A89764 /* Work+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F4220FE1DE00A89764 /* Work+CoreDataClass.swift */; };
+		6E11A6FB220FE1DE00A89764 /* Work+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F5220FE1DE00A89764 /* Work+CoreDataProperties.swift */; };
+		6E11A6FC220FE1DE00A89764 /* Artist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F6220FE1DE00A89764 /* Artist+CoreDataClass.swift */; };
+		6E11A6FD220FE1DE00A89764 /* Artist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E11A6F7220FE1DE00A89764 /* Artist+CoreDataProperties.swift */; };
+		6E64503C221B6EF700E1F926 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64503B221B6EF700E1F926 /* WorkCell.swift */; };
+		6E64503E221B964600E1F926 /* LocationWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64503D221B964600E1F926 /* LocationWorkVC.swift */; };
+		6E645040221F9B7A00E1F926 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64503F221F9B7A00E1F926 /* LocationCell.swift */; };
+		6E64504E22227A8500E1F926 /* ArtistWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64504D22227A8500E1F926 /* ArtistWorkVC.swift */; };
+		6E64505222227B2600E1F926 /* LocationFullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64504F22227B2500E1F926 /* LocationFullScreenVC.swift */; };
+		6E64505322227B2600E1F926 /* ArtistWorkCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64505022227B2600E1F926 /* ArtistWorkCollectionVC.swift */; };
+		6E6450582224912A00E1F926 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6450572224912A00E1F926 /* LaunchScreenVC.swift */; };
+		6E64505E2224B70000E1F926 /* LocationWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64505D2224B6FF00E1F926 /* LocationWebVC.swift */; };
+		6E64505F2224E77600E1F926 /* LocationWorkCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E645039221B6ABE00E1F926 /* LocationWorkCollectionVC.swift */; };
+		6E64506122251F5400E1F926 /* ArtistWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64506022251F5400E1F926 /* ArtistWebVC.swift */; };
+		6E6625E021FE7C8100A0E4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6625DF21FE7C8100A0E4E8 /* AppDelegate.swift */; };
+		6E6625E221FE7C8100A0E4E8 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6625E121FE7C8100A0E4E8 /* LocationVC.swift */; };
+		6E6625E421FE7C8100A0E4E8 /* ArtistsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6625E321FE7C8100A0E4E8 /* ArtistsVC.swift */; };
+		6E6625E721FE7C8100A0E4E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6625E521FE7C8100A0E4E8 /* Main.storyboard */; };
+		6E6625E921FE7C8300A0E4E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6625E821FE7C8300A0E4E8 /* Assets.xcassets */; };
+		6E6625EC21FE7C8300A0E4E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6625EA21FE7C8300A0E4E8 /* LaunchScreen.storyboard */; };
+		6E6625F521FE7CC300A0E4E8 /* 1000Museums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E6625F321FE7CC300A0E4E8 /* 1000Museums.xcdatamodeld */; };
+		6E6625F921FE7CD900A0E4E8 /* TheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6625F821FE7CD900A0E4E8 /* TheModel.swift */; };
+		6E66261A2203E3DA00A0E4E8 /* CoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6626192203E3DA00A0E4E8 /* CoreAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C2883722306D9200A4DCD3 /* genius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genius.png; sourceTree = "<group>"; };
+		01C2883922306DDA00A4DCD3 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		01C2883B22306E2700A4DCD3 /* map_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_marker.png; sourceTree = "<group>"; };
+		01C2883D223071C100A4DCD3 /* globe_earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe_earth.png; sourceTree = "<group>"; };
+		5DCD15EF222DD87900B5D383 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		5DCD15F1222DDB7200B5D383 /* WorkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkParser.swift; sourceTree = "<group>"; };
+		5DCD15F2222DDB7200B5D383 /* ArtistParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistParser.swift; sourceTree = "<group>"; };
+		5DCD15F3222DDB7200B5D383 /* LocationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationParser.swift; sourceTree = "<group>"; };
+		5DCD15F4222DDB7200B5D383 /* PersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		5DCD15F9222DDF6400B5D383 /* ArtistFullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFullScreenVC.swift; sourceTree = "<group>"; };
+		6E11A6F2220FE1DE00A89764 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E11A6F3220FE1DE00A89764 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E11A6F4220FE1DE00A89764 /* Work+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Work+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E11A6F5220FE1DE00A89764 /* Work+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Work+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E11A6F6220FE1DE00A89764 /* Artist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Artist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6E11A6F7220FE1DE00A89764 /* Artist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Artist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E645039221B6ABE00E1F926 /* LocationWorkCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWorkCollectionVC.swift; sourceTree = "<group>"; };
+		6E64503B221B6EF700E1F926 /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		6E64503D221B964600E1F926 /* LocationWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWorkVC.swift; sourceTree = "<group>"; };
+		6E64503F221F9B7A00E1F926 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		6E64504D22227A8500E1F926 /* ArtistWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistWorkVC.swift; sourceTree = "<group>"; };
+		6E64504F22227B2500E1F926 /* LocationFullScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFullScreenVC.swift; sourceTree = "<group>"; };
+		6E64505022227B2600E1F926 /* ArtistWorkCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistWorkCollectionVC.swift; sourceTree = "<group>"; };
+		6E6450572224912A00E1F926 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		6E64505D2224B6FF00E1F926 /* LocationWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWebVC.swift; sourceTree = "<group>"; };
+		6E64506022251F5400E1F926 /* ArtistWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistWebVC.swift; sourceTree = "<group>"; };
+		6E6625DC21FE7C8100A0E4E8 /* 1000Museums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1000Museums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6625DF21FE7C8100A0E4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E6625E121FE7C8100A0E4E8 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		6E6625E321FE7C8100A0E4E8 /* ArtistsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsVC.swift; sourceTree = "<group>"; };
+		6E6625E621FE7C8100A0E4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6625E821FE7C8300A0E4E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6625EB21FE7C8300A0E4E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E6625ED21FE7C8300A0E4E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6625F421FE7CC300A0E4E8 /* temp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = temp.xcdatamodel; sourceTree = "<group>"; };
+		6E6625F821FE7CD900A0E4E8 /* TheModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheModel.swift; sourceTree = "<group>"; };
+		6E6626192203E3DA00A0E4E8 /* CoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6625D921FE7C8100A0E4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C2883F223079CC00A4DCD3 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				01C2883922306DDA00A4DCD3 /* people.png */,
+				01C2883B22306E2700A4DCD3 /* map_marker.png */,
+				01C2883722306D9200A4DCD3 /* genius.png */,
+				01C2883D223071C100A4DCD3 /* globe_earth.png */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		6E6450422221E81600E1F926 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E6625E521FE7C8100A0E4E8 /* Main.storyboard */,
+				01C2883F223079CC00A4DCD3 /* Tab Bar */,
+				6E6625E321FE7C8100A0E4E8 /* ArtistsVC.swift */,
+				6E64505022227B2600E1F926 /* ArtistWorkCollectionVC.swift */,
+				6E64504D22227A8500E1F926 /* ArtistWorkVC.swift */,
+				6E64504F22227B2500E1F926 /* LocationFullScreenVC.swift */,
+				5DCD15F9222DDF6400B5D383 /* ArtistFullScreenVC.swift */,
+				6E6450572224912A00E1F926 /* LaunchScreenVC.swift */,
+				6E64506022251F5400E1F926 /* ArtistWebVC.swift */,
+				6E645039221B6ABE00E1F926 /* LocationWorkCollectionVC.swift */,
+				6E64503D221B964600E1F926 /* LocationWorkVC.swift */,
+				6E6625E121FE7C8100A0E4E8 /* LocationVC.swift */,
+				6E64505D2224B6FF00E1F926 /* LocationWebVC.swift */,
+				5DCD15EF222DD87900B5D383 /* AboutVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E6625D321FE7C8100A0E4E8 = {
+			isa = PBXGroup;
+			children = (
+				6E6625DE21FE7C8100A0E4E8 /* 1000Museums */,
+				6E6625DD21FE7C8100A0E4E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6625DD21FE7C8100A0E4E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6625DC21FE7C8100A0E4E8 /* 1000Museums.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6625DE21FE7C8100A0E4E8 /* 1000Museums */ = {
+			isa = PBXGroup;
+			children = (
+				6E11A6F2220FE1DE00A89764 /* Location+CoreDataClass.swift */,
+				6E11A6F3220FE1DE00A89764 /* Location+CoreDataProperties.swift */,
+				6E11A6F4220FE1DE00A89764 /* Work+CoreDataClass.swift */,
+				6E11A6F5220FE1DE00A89764 /* Work+CoreDataProperties.swift */,
+				6E11A6F6220FE1DE00A89764 /* Artist+CoreDataClass.swift */,
+				6E11A6F7220FE1DE00A89764 /* Artist+CoreDataProperties.swift */,
+				6E6626182203E17C00A0E4E8 /* CoreData */,
+				6E6625DF21FE7C8100A0E4E8 /* AppDelegate.swift */,
+				6E6450422221E81600E1F926 /* View */,
+				6E6625F821FE7CD900A0E4E8 /* TheModel.swift */,
+				6E6625E821FE7C8300A0E4E8 /* Assets.xcassets */,
+				6E6625EA21FE7C8300A0E4E8 /* LaunchScreen.storyboard */,
+				6E6625ED21FE7C8300A0E4E8 /* Info.plist */,
+				6E64503B221B6EF700E1F926 /* WorkCell.swift */,
+				6E64503F221F9B7A00E1F926 /* LocationCell.swift */,
+			);
+			path = 1000Museums;
+			sourceTree = "<group>";
+		};
+		6E6626182203E17C00A0E4E8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5DCD15F2222DDB7200B5D383 /* ArtistParser.swift */,
+				5DCD15F3222DDB7200B5D383 /* LocationParser.swift */,
+				5DCD15F4222DDB7200B5D383 /* PersistenceManager.swift */,
+				5DCD15F1222DDB7200B5D383 /* WorkParser.swift */,
+				6E6625F321FE7CC300A0E4E8 /* 1000Museums.xcdatamodeld */,
+				6E6626192203E3DA00A0E4E8 /* CoreAPI.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6625DB21FE7C8100A0E4E8 /* 1000Museums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6625F021FE7C8300A0E4E8 /* Build configuration list for PBXNativeTarget "1000Museums" */;
+			buildPhases = (
+				6E6625D821FE7C8100A0E4E8 /* Sources */,
+				6E6625D921FE7C8100A0E4E8 /* Frameworks */,
+				6E6625DA21FE7C8100A0E4E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1000Museums;
+			productName = 1000Museums;
+			productReference = 6E6625DC21FE7C8100A0E4E8 /* 1000Museums.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6625D421FE7C8100A0E4E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = RaiderSoft;
+				TargetAttributes = {
+					6E6625DB21FE7C8100A0E4E8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E6625D721FE7C8100A0E4E8 /* Build configuration list for PBXProject "1000Museums" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6625D321FE7C8100A0E4E8;
+			productRefGroup = 6E6625DD21FE7C8100A0E4E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6625DB21FE7C8100A0E4E8 /* 1000Museums */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6625DA21FE7C8100A0E4E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2883C22306E2700A4DCD3 /* map_marker.png in Resources */,
+				01C2883822306D9200A4DCD3 /* genius.png in Resources */,
+				01C2883E223071C100A4DCD3 /* globe_earth.png in Resources */,
+				6E6625EC21FE7C8300A0E4E8 /* LaunchScreen.storyboard in Resources */,
+				6E6625E921FE7C8300A0E4E8 /* Assets.xcassets in Resources */,
+				6E6625E721FE7C8100A0E4E8 /* Main.storyboard in Resources */,
+				01C2883A22306DDA00A4DCD3 /* people.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6625D821FE7C8100A0E4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E64505F2224E77600E1F926 /* LocationWorkCollectionVC.swift in Sources */,
+				6E64504E22227A8500E1F926 /* ArtistWorkVC.swift in Sources */,
+				6E11A6FC220FE1DE00A89764 /* Artist+CoreDataClass.swift in Sources */,
+				6E11A6FD220FE1DE00A89764 /* Artist+CoreDataProperties.swift in Sources */,
+				6E64505222227B2600E1F926 /* LocationFullScreenVC.swift in Sources */,
+				6E11A6FB220FE1DE00A89764 /* Work+CoreDataProperties.swift in Sources */,
+				6E11A6F8220FE1DE00A89764 /* Location+CoreDataClass.swift in Sources */,
+				6E6450582224912A00E1F926 /* LaunchScreenVC.swift in Sources */,
+				6E64505E2224B70000E1F926 /* LocationWebVC.swift in Sources */,
+				6E645040221F9B7A00E1F926 /* LocationCell.swift in Sources */,
+				5DCD15F0222DD87A00B5D383 /* AboutVC.swift in Sources */,
+				5DCD15F7222DDB7300B5D383 /* LocationParser.swift in Sources */,
+				6E11A6FA220FE1DE00A89764 /* Work+CoreDataClass.swift in Sources */,
+				6E11A6F9220FE1DE00A89764 /* Location+CoreDataProperties.swift in Sources */,
+				6E6625F521FE7CC300A0E4E8 /* 1000Museums.xcdatamodeld in Sources */,
+				5DCD15F8222DDB7300B5D383 /* PersistenceManager.swift in Sources */,
+				6E64505322227B2600E1F926 /* ArtistWorkCollectionVC.swift in Sources */,
+				6E64503E221B964600E1F926 /* LocationWorkVC.swift in Sources */,
+				5DCD15FA222DDF6400B5D383 /* ArtistFullScreenVC.swift in Sources */,
+				6E64503C221B6EF700E1F926 /* WorkCell.swift in Sources */,
+				6E6625E421FE7C8100A0E4E8 /* ArtistsVC.swift in Sources */,
+				6E6625E021FE7C8100A0E4E8 /* AppDelegate.swift in Sources */,
+				5DCD15F5222DDB7300B5D383 /* WorkParser.swift in Sources */,
+				6E66261A2203E3DA00A0E4E8 /* CoreAPI.swift in Sources */,
+				6E64506122251F5400E1F926 /* ArtistWebVC.swift in Sources */,
+				5DCD15F6222DDB7300B5D383 /* ArtistParser.swift in Sources */,
+				6E6625E221FE7C8100A0E4E8 /* LocationVC.swift in Sources */,
+				6E6625F921FE7CD900A0E4E8 /* TheModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E6625E521FE7C8100A0E4E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6625E621FE7C8100A0E4E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6625EA21FE7C8300A0E4E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6625EB21FE7C8300A0E4E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E6625EE21FE7C8300A0E4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E6625EF21FE7C8300A0E4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6625F121FE7C8300A0E4E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHHLZ6U8L2;
+				INFOPLIST_FILE = 1000Museums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.1000Museums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6625F221FE7C8300A0E4E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHHLZ6U8L2;
+				INFOPLIST_FILE = 1000Museums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.1000Museums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6625D721FE7C8100A0E4E8 /* Build configuration list for PBXProject "1000Museums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6625EE21FE7C8300A0E4E8 /* Debug */,
+				6E6625EF21FE7C8300A0E4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6625F021FE7C8300A0E4E8 /* Build configuration list for PBXNativeTarget "1000Museums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6625F121FE7C8300A0E4E8 /* Debug */,
+				6E6625F221FE7C8300A0E4E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E6625F321FE7CC300A0E4E8 /* 1000Museums.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E6625F421FE7CC300A0E4E8 /* temp.xcdatamodel */,
+			);
+			currentVersion = 6E6625F421FE7CC300A0E4E8 /* temp.xcdatamodel */;
+			path = 1000Museums.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E6625D421FE7C8100A0E4E8 /* Project object */;
+}

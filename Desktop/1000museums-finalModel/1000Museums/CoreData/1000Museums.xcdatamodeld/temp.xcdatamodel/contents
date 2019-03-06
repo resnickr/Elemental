@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Artist" representedClassName="Artist" syncable="YES">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workCount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="painted" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Work" inverseName="paintedBy" inverseEntity="Work" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="address" attributeType="String" syncable="YES"/>
+        <attribute name="city" attributeType="String" syncable="YES"/>
+        <attribute name="country" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="phone" attributeType="String" syncable="YES"/>
+        <attribute name="url" attributeType="String" syncable="YES"/>
+        <attribute name="wiki_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="workCount" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="paintingsHeld" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Work" inverseName="located" inverseEntity="Work" syncable="YES"/>
+    </entity>
+    <entity name="Work" representedClassName="Work" syncable="YES">
+        <attribute name="artist" attributeType="String" syncable="YES"/>
+        <attribute name="artistID" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="artistWikiURL" attributeType="String" syncable="YES"/>
+        <attribute name="buyURL" attributeType="String" syncable="YES"/>
+        <attribute name="caption" attributeType="String" syncable="YES"/>
+        <attribute name="dimensions" attributeType="String" syncable="YES"/>
+        <attribute name="height" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="imageFile" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imagePath" attributeType="String" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="locationName" attributeType="String" syncable="YES"/>
+        <attribute name="medium" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="publicDomain" attributeType="Integer 32" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sortDate" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="thumbnailFile" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="thumbnailImagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="wikiURL" attributeType="String" syncable="YES"/>
+        <attribute name="year" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year2" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="located" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="paintingsHeld" inverseEntity="Location" syncable="YES"/>
+        <relationship name="paintedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="painted" inverseEntity="Artist" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Artist" positionX="-54" positionY="9" width="128" height="120"/>
+        <element name="Location" positionX="-36" positionY="45" width="128" height="225"/>
+        <element name="Work" positionX="-18" positionY="54" width="128" height="405"/>
+    </elements>
+</model>
